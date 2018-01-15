@@ -1,0 +1,12 @@
+.parent{
+  width:80%;
+  margin:50px auto;
+  padding-bottom: 50px;
+  padding: 20px;
+}
+
+div p{
+  float: right;
+  text-effect: engrave;
+  font-family: "Bitstream Charter";
+}
