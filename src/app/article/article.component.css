@@ -1,0 +1,26 @@
+.art_compo{
+    width:100%;
+    height:300px;
+    border:grey 1px solid;
+    
+    box-shadow: 2px 2px 4px gray;
+}
+
+.half{
+    width: 50%;
+    height:100%;
+}
+.halfy{
+    height:50%;
+}
+.borderly{
+    box-shadow: 2px 3px 4px gainsboro;
+    padding:5%;
+    border:grey 1px solid;
+}
+
+.w3-btn-floating{
+    padding:5px;
+    width:100px;
+    border-radius: 10px;
+}

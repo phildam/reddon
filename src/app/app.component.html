@@ -1,9 +1,9 @@
 
-<div class="parent">
+<div class="w3-container">
 
 
 
-<div class="w3-container w3-card-4 w3-light-grey">
+<div class="parent w3-card-4 w3-light-grey">
 
   <div class="w3-container ">
     <h2>Reddon app</h2>
@@ -14,7 +14,7 @@
     <label>Title</label>
     <input class="w3-input w3-border" name="title" type="text" #newtitle>
 
-    <label>Link</label>
+    <label>Article</label>
     <input class="w3-input w3-ripple w3-border" name="link" type="text" #newlink>
   <button (click)="addArticle(newtitle, newlink)" class="w3-button w3-margin w3-blue w3-round w3-right">submit</button>
   </form>
@@ -24,7 +24,10 @@
 
 
 </div>
+    <div class="w3-container">
+        <app-article
+            *ngFor="let articleItem of sortedArticles()" [article]="articleItem"></app-article>
+    </div>
 
 </div>
 
-<app-article></app-article>
