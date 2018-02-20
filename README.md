@@ -28,6 +28,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Similar libs
 ```
-vue.js
-react.js
+- [x] Angular 
+- [ ] vue.js
+- [ ]react.js
 ```
